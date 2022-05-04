@@ -5,9 +5,9 @@ body{
 
 /* tagline */
 
-/* .container-fluid{
-    padding: 0;
-} */
+.p-5{
+    padding: 7rem !important;
+}
 
 .thumbnail { 
     position: relative; 
