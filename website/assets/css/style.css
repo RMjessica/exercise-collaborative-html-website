@@ -1,3 +1,27 @@
 body{
     background: #BDBDBD;
 }
+
+/* tagline */
+
+.thumbnail { 
+    position: relative; 
+   } 
+   .caption { 
+    position: absolute; 
+    top: 10%; 
+    left: 0; 
+    width: 100%; 
+    
+   } 
+.caption h1,h2{
+    margin: 15px 0;
+}
+  .title{
+      font-weight: bold;
+      font-size: 9em;
+  }
+  .sub-title{
+    font-weight: bold;
+    font-size: 5em;
+  }
