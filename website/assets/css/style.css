@@ -4,6 +4,10 @@ body{
 
 /* tagline */
 
+/* .container-fluid{
+    padding: 0;
+} */
+
 .thumbnail { 
     position: relative; 
    } 
