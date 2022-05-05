@@ -1,5 +1,13 @@
+
+
+.container-fluid{
+    margin: 0;
+    padding: 0;
+}
+
 body{
-    background: #BDBDBD;
+    background: #ffffff;
+    overflow-x: hidden;
     
 }
 
@@ -11,14 +19,18 @@ body{
 
 .thumbnail { 
     position: relative; 
-   } 
-   .caption { 
+} 
+
+.caption { 
     position: absolute; 
     top: 10%; 
     left: 0; 
     width: 100%; 
-    
-   } 
+    /* min-width: 570px; */
+    /* max-height: 80%; */
+    /* max-height: calc(100vh - 20%); */
+}
+
 .caption h1,h2{
     margin: 25px;
 }
@@ -30,3 +42,52 @@ body{
     font-weight: bold;
     font-size: 5em;
   }
+
+.portada{
+    min-height: 100vh;
+}
+
+.portada img {
+    min-height: 100vh;
+}
+
+.first-heading img, .services img{
+    height: 500px;
+    width: 500px;
+    padding: 3rem;
+
+}
+
+.first-heading, .services{
+    padding: 5%;
+    padding-bottom: 0;
+}
+
+.portfolio{
+    padding: 5%;
+}
+
+.contact{
+    padding: 5%;
+}
+
+.contact form{
+    background-color: rgb(211, 211, 211);
+    padding: 5%;
+}
+
+.contact form input{
+    display: inline-block;
+    width: 70%;
+    margin-left: 30px;
+}
+
+.comment{
+    height: 100px;
+}
+
+.cajaBoton{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 30px;
+}
