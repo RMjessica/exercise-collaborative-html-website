@@ -1,20 +1,29 @@
-
-
-.container-fluid{
-    margin: 0;
-    padding: 0;
-}
+/*     for cohesiveness     */
 
 body{
-    background: #ffffff;
-    overflow-x: hidden;
-    
+  background: #f2f1f1;
+  overflow-x: hidden;
 }
 
-/* tagline */
+hr {
+  height:2px;
+  width: 85%;
+  border-width:0;
+  color:gray;
+  background-color:gray;
+  text-align: center;
+  margin: auto;
+  margin-top: 6%;
+  margin-bottom: 7%;
+}
 
+.first-heading, .services, .portfolio, .contact{
+  font-size: 18px;
+}
+
+/*     tagline      */
 .p-5{
-    padding: 7rem !important;
+  padding: 7rem !important;
 }
 
 .thumbnail { 
@@ -91,3 +100,59 @@ body{
     justify-content: flex-end;
     margin-top: 30px;
 }
+.thumbnail{ 
+  position: relative; 
+} 
+
+.caption{ 
+  position: absolute; 
+  top: 10%; 
+  left: 0; 
+  width: 100%; 
+} 
+
+.caption h1, h2{
+  margin: 25px;
+}
+
+.title{
+  font-weight: bold;
+  font-size: 9em;
+}
+
+.sub-title{
+  font-weight: bold;
+  font-size: 5em;
+}
+
+/*     portfolio     */
+div.card-body h4{
+  color: rgb(8, 133, 228);
+  padding-bottom: 0;
+}
+
+/*     contact     */
+div.info-box {
+  padding: 2%;
+  background: rgb(243, 238, 238);
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(197, 195, 195);
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.btn-primary {
+  background-color: rgb(8, 133, 228) !important;
+  border:rgb(8, 133, 228);
+
+}
+
+
+/*     footer     */
+  div.footer p{
+    font-size: 15px;
+    padding-top: 4%;   
+    padding-bottom: 4%;
+    margin-left: 9.3%;
+  }
