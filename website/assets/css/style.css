@@ -12,8 +12,6 @@ hr {
   background-color:gray;
   text-align: center;
   margin: auto;
-  margin-top: 6%;
-  margin-bottom: 7%;
 }
 
 .first-heading, .services, .portfolio, .contact{
@@ -66,8 +64,8 @@ hr {
 }
 
 .first-heading, .services{
-    padding: 5%;
-    padding-bottom: 0;
+
+  padding-bottom: 0;
 }
 
 
