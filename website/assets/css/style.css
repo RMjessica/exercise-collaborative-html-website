@@ -1,7 +1,6 @@
 /*     for cohesiveness     */
-body{
+body {
   background: #f2f1f1;
-  overflow-x: hidden;
 }
 
 hr {
@@ -12,99 +11,47 @@ hr {
   background-color:gray;
   text-align: center;
   margin: auto;
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
 
-.first-heading, .services, .portfolio, .contact{
+.first-heading, .services, .portfolio, .contact {
   font-size: 18px;
 }
 
-.p-5{
-  padding: 7rem !important;
-}
+/*     tagline     */
 
-.thumbnail { 
-    position: relative; 
-} 
-
-.caption { 
-    position: absolute; 
-    top: 10%; 
-    left: 0; 
-    width: 100%; 
-    /* min-width: 570px; */
-    /* max-height: 80%; */
-    /* max-height: calc(100vh - 20%); */
-}
-
-.caption h1,h2{
-    margin: 25px;
-}
-  .title{
-      font-weight: bold;
-      font-size: 9em;
-  }
-  .sub-title{
-    font-weight: bold;
-    font-size: 5em;
-  }
-
-.portada{
-    min-height: 100vh;
-}
-
-.portada img {
-    min-height: 100vh;
-}
-
-.first-heading img, .services img{
-    height: 500px;
-    width: 500px;
-    padding: 3rem;
-
-}
-
-.first-heading, .services{
-
-  padding-bottom: 0;
-}
-
-
-.comment{
-    height: 100px;
-}
-
-.cajaBoton{
-    display: flex;
-    justify-content: flex-end;
-    margin-top: 30px;
-}
-.thumbnail{ 
-  position: relative; 
-} 
-
-.caption{ 
-  position: absolute; 
-  top: 10%; 
-  left: 0; 
-  width: 100%; 
-} 
-
-.caption h1, h2{
+/*div.centered h1, h2 {
   margin: 25px;
+}*/
+
+.title {
+  font-weight: bold;
+  font-size: 8em;
 }
 
-.title{
+.sub-title {
   font-weight: bold;
-  font-size: 9em;
+  font-size: 4em;
 }
 
-.sub-title{
-  font-weight: bold;
-  font-size: 5em;
+/*     first heading & services     */
+.first-heading, .services {
+  display: inline-block;
 }
+
+.resize {
+  width: 28%;
+  height: auto;
+}
+
+.colored-title {
+  color: grey;
+}
+
 
 /*     portfolio     */
-div.card-body h4{
+div.card-body h4 {
   color: rgb(8, 133, 228);
   padding-bottom: 0;
 }
@@ -123,12 +70,10 @@ div.info-box {
 .btn-primary {
   background-color: rgb(8, 133, 228) !important;
   border:rgb(8, 133, 228);
-
 }
 
-
 /*     footer     */
-  div.footer p{
+  div.footer p {
     font-size: 15px;
     padding-top: 4%;   
     padding-bottom: 4%;
